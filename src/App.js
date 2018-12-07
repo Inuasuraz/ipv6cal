@@ -58,13 +58,12 @@ class App extends Component {
                       <select className="select-board-size">
                         {this.buildOptions()}
                       </select>
-                      <button className="button">OK</button>
                     </div>
                   </div>
                 </div>
 
                 <div className="field">
-                <a class="button is-primary" onClick={this.calculate}>Primary</a>
+                <a class="button is-primary" onClick={this.calculate}>OK</a>
                 </div>
 
 
